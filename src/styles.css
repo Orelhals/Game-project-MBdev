@@ -1,3 +1,16 @@
 body {
   font-family: sans-serif;
+  width: 320px;
+  height: 608px;
+}
+
+#score {
+  display: flex;
+  justify-content: space-between;
+}
+
+#cards {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
 }
