@@ -1,3 +1,6 @@
+import "./styles/settings/colors.css";
+import "./styles/generic/reset.css";
+import "./styles/elements/base.css";
 import CardGame from "./components/CardGame/index";
 
 const $root = document.querySelector("#root");
