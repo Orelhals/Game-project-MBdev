@@ -1,8 +1,8 @@
-import "../PlayerScore/style.css";
+import "./style.css";
 
-function PlayerScore(number) {
-  return `
-    <h2 class="player-score">Player${number}:</h2>
+function PlayerScore(content) {
+  return /*html*/ `
+    <p class="player-score">${content}</p>
   `;
 }
 
