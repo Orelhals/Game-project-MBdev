@@ -2,7 +2,7 @@ import "./styles/settings/colors.css";
 import "./styles/generic/reset.css";
 import "./styles/elements/base.css";
 import ScoreBoard from "./objects/ScoreBoard";
-import CardFrontBack from "./components/CardFrontBack";
+import BoardGame from "./objects/BoardGame";
 
 /*
 const $CardGameHtml = CardGame() + CardGame() + CardGame();
@@ -22,6 +22,6 @@ $cards.insertAdjacentHTML(
   "beforeend",
   `
     ${ScoreBoard()}
-    ${CardFrontBack()}
+    ${BoardGame(2)}
   `
 );
