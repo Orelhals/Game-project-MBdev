@@ -1,3 +1,5 @@
 .board-game {
   display: flex;
+  gap: 20px;
+  perspective: 400px;
 }
