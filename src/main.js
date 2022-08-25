@@ -3,6 +3,7 @@ import "./styles/generic/reset.css";
 import "./styles/elements/base.css";
 import ScoreBoard from "./objects/ScoreBoard";
 import BoardGame from "./objects/BoardGame";
+import VsPlayer from "./components/VsPlayer";
 
 /*
 const $CardGameHtml = CardGame() + CardGame() + CardGame();
