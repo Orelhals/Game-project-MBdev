@@ -5,6 +5,8 @@
   --height: 160px;
   height: var(--height);
   width: var(--width);
+  transition: transform 500ms ease-in-out;
+  cursor: pointer;
 }
 
 .card-front-back.active {

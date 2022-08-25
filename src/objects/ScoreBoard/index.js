@@ -1,4 +1,5 @@
 import PlayerScore from "../../components/PlayerScore";
+import "./style.css";
 
 function ScoreBoard() {
   return /*html*/ `

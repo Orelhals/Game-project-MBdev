@@ -17,11 +17,11 @@ const $cards = document.querySelector("#cards");
 $cards.insertAdjacentHTML("beforeend", $CardFrontBack);
 */
 
-const $cards = document.querySelector("#root");
-$cards.insertAdjacentHTML(
+const $root = document.querySelector("#root");
+$root.insertAdjacentHTML(
   "beforeend",
   `
     ${ScoreBoard()}
-    ${BoardGame(2)}
+    ${BoardGame(6)}
   `
 );
